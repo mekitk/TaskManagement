@@ -1,0 +1,180 @@
+[
+  {
+    "ContainingType": "G\u00F6rev_Y\u00F6netim_Uygulamas\u0131.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "G\u00F6rev_Y\u00F6netim_Uygulamas\u0131.Dto.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "G\u00F6rev_Y\u00F6netim_Uygulamas\u0131.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "G\u00F6rev_Y\u00F6netim_Uygulamas\u0131.Dto.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "G\u00F6rev_Y\u00F6netim_Uygulamas\u0131.Controllers.ProjectsController",
+    "Method": "GetProjects",
+    "RelativePath": "projects",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "G\u00F6rev_Y\u00F6netim_Uygulamas\u0131.Controllers.ProjectsController",
+    "Method": "CreateProject",
+    "RelativePath": "projects",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "GorevYonetimUygulamasi.Dto.ProjectCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "G\u00F6rev_Y\u00F6netim_Uygulamas\u0131.Controllers.ProjectsController",
+    "Method": "UpdateProject",
+    "RelativePath": "projects/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GorevYonetimUygulamasi.Dto.ProjectUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GorevYonetimUygulamasi.Controllers.TasksController",
+    "Method": "GetMyTasks",
+    "RelativePath": "tasks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GorevYonetimUygulamasi.Controllers.TasksController",
+    "Method": "CreateTask",
+    "RelativePath": "tasks",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "task",
+        "Type": "G\u00F6rev_Y\u00F6netim_Uygulamas\u0131.Models.TaskItem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GorevYonetimUygulamasi.Controllers.TasksController",
+    "Method": "GetTaskById",
+    "RelativePath": "tasks/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GorevYonetimUygulamasi.Controllers.TasksController",
+    "Method": "UpdateTask",
+    "RelativePath": "tasks/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedTask",
+        "Type": "G\u00F6rev_Y\u00F6netim_Uygulamas\u0131.Models.TaskItem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GorevYonetimUygulamasi.Controllers.TasksController",
+    "Method": "DeleteTask",
+    "RelativePath": "tasks/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GorevYonetimUygulamasi.Controllers.TasksController",
+    "Method": "GetTasks",
+    "RelativePath": "tasks/gettasks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GorevYonetimUygulamasi.Controllers.UsersController",
+    "Method": "GetUsers",
+    "RelativePath": "users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
